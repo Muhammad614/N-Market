@@ -46,16 +46,18 @@
                     </div>
 
                     <div class="p-2 border-end content text-center" id="card">
-                        <a href="product-list.html" style="text-decoration: none;">
+                        <a href="product-list.html" class="text-decoration-none">
                             <img src="./assets/icons/List.svg" alt="" class="">
                             <p class="mt-2 fs-6 w-auto mb-0">Товарлар руйхати</p>
                         </a>
                     </div>
 
                     <div class="p-2 border-end content text-center" id="card">
+                        <a href="delivery.html " class="text-decoration-none">
                         <img src="./assets/icons/Truck.svg" alt="" class="">
 
                         <p class="mt-2 fs-6 w-auto mb-0">Мол етказиб берувчи</p>
+                    </a>
                     </div>
                 </div>
             </div>
@@ -64,21 +66,25 @@
 
             <div class="tab-pane fade border-bottom border-3" id="nav-profile" role="tabpanel"
                 aria-labelledby="nav-profile-tab">
-                <div class="grid-container">
-                    <div class="p-2 border-end text-center" id="card">
+                <div class="grid-container" >
+                    <div class="p-2 border-end text-center" id="card" data-bs-toggle="modal" data-bs-target="#settingsModal">
                         <img src="./assets/icons/NotePencil.svg" alt="">
                         <p class="mt-2 fs-6 w-auto mb-0">Тугрилашлар</p>
                     </div>
 
                     <div class="p-2 border-end text-center" id="card">
+                        <a href="tarozi.html" class="text-decoration-none">
                         <img src="./assets/icons/Calculator.svg" alt="">
                         <p class="mt-2 fs-6 w-auto mb-0">Тарози</p>
+                    </a>
                     </div>
 
                     <div class="p-2 border-end text-center" id="card">
+                        <a href="ishchilar.html" class="text-decoration-none">
                         <img src="./assets/icons/star.svg" alt="">
 
                         <p class="mt-2 fs-6 w-auto mb-0">Ишлатувчилар</p>
+                    </a>
                     </div>
 
                     <div class="p-2 border-end text-center" id="card">
@@ -112,6 +118,197 @@
             </div>
         </div>
     </header>
+
+    
+
+    <!-- Modal -->
+    <div class="modal fade" id="settingsModal" tabindex="-1" aria-labelledby="settingsModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="settingsModalLabel">To'g'irlashlar</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                        <div class="mb-3">
+                            <a href="#categoryModal1" class="btn btn-outline-primary mb-3 mx-2" data-bs-toggle="modal">Rekvizitlar</a>
+                            <a href="#additionalModal" class="btn btn-outline-primary mb-3 mx-2" data-bs-toggle="modal">Qo'shimchalar</a>
+                            <a href="#categoryModal3" class="btn btn-outline-primary mb-3 mx-2" data-bs-toggle="modal">Tezkor tugmalar</a>
+                        </div>
+                    <div class="mb-3">
+                        <div class="row">
+                            <label for="companyName" class="col-sm-4 col-form-label">Korxona nomi</label>
+                            <div class="col-sm-8">
+                                <input type="text" class="form-control" id="companyName">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <div class="row">
+                            <label for="accountNumber" class="col-sm-4 col-form-label">Hisob raqami</label>
+                            <div class="col-sm-8">
+                                <input type="text" class="form-control" id="accountNumber">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label for="mfo" class="col-sm-4 col-form-label">MFO</label>
+                        <div class="col-sm-8">
+                          <input type="text" class="form-control" id="mfo">
+                        </div>
+                      </div>
+                      <div class="row mb-3">
+                        <label for="inn" class="col-sm-4 col-form-label">INN</label>
+                        <div class="col-sm-8">
+                          <input type="text" class="form-control" id="inn">
+                        </div>
+                      </div>
+                      <div class="row mb-3">
+                        <label for="okonx" class="col-sm-4 col-form-label">OKONX</label>
+                        <div class="col-sm-8">
+                          <input type="text" class="form-control" id="okonx">
+                        </div>
+                      </div>
+                      <div class="row mb-3">
+                        <label for="director" class="col-sm-4 col-form-label">Raxbar</label>
+                        <div class="col-sm-8">
+                          <input type="text" class="form-control" id="director">
+                        </div>
+                      </div>
+                      <div class="row mb-3">
+                        <label for="chiefAccountant" class="col-sm-4 col-form-label">Bosh hisobchi</label>
+                        <div class="col-sm-8">
+                          <input type="text" class="form-control" id="chiefAccountant">
+                        </div>
+                      </div>
+                      <div class="row mb-3">
+                        <label for="phone" class="col-sm-4 col-form-label">Telefon</label>
+                        <div class="col-sm-8">
+                          <input type="text" class="form-control" id="phone">
+                        </div>
+                      </div>
+                      <div class="row mb-3">
+                        <label for="address" class="col-sm-4 col-form-label">Manzil</label>
+                        <div class="col-sm-8">
+                          <input type="text" class="form-control" id="address">
+                        </div>
+                      </div>
+                      
+                    <div class="mb-3">
+                        <label for="languageSelect" class="form-label">Til</label>
+                        <select class="form-select" id="languageSelect">
+                            <option value="uzbek">O'zbekcha</option>
+                            <option value="english">English</option>
+                            <option value="russian">Русский</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Yopish</button>
+                    <button type="button" class="btn btn-primary">Saqlash</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- "Qo'shimchalar" modal -->
+    <div class="modal fade" id="additionalModal" tabindex="-1" aria-labelledby="additionalModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="additionalModalLabel">Qo'shimchalar</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="row mb-3">
+                <div class="col">
+                  <label for="chiqimHujjati" class="form-label">Chiqim hujjati</label>
+                  <input type="text" class="form-control" id="chiqimHujjati">
+                </div>
+                <div class="col">
+                  <label for="chiqimHujjatNollari" class="form-label">Chiqim hujjat nollari</label>
+                  <input type="text" class="form-control" id="chiqimHujjatNollari">
+                </div>
+              </div>
+              <div class="row mb-3">
+                <div class="col">
+                  <label for="kirimHujjati" class="form-label">Kirim hujjati</label>
+                  <input type="text" class="form-control" id="kirimHujjati">
+                </div>
+                <div class="col">
+                  <label for="ustama" class="form-label">Ustama</label>
+                  <input type="text" class="form-control" id="ustama">
+                </div>
+              </div>
+              <div class="row mb-3">
+                <div class="col">
+                  <label for="yaxlitlash" class="form-label">Yaxlitlash</label>
+                  <input type="text" class="form-control" id="yaxlitlash">
+                </div>
+                <div class="col">
+                  <label for="shtrixKodSkanerTuri" class="form-label">Shtrix kod skaner turi</label>
+                  <select class="form-select" id="shtrixKodSkanerTuri">
+                    <option value="option1">Option 1</option>
+                    <option value="option2">Option 2</option>
+                    <option value="option3">Option 3</option>
+                  </select>
+                </div>
+              </div>
+              <div class="row mb-3">
+                <div class="col">
+                  <label for="shtrixKodSkanerPorti" class="form-label">Shtrix kod skaner porti</label>
+                  <select class="form-select" id="shtrixKodSkanerPorti">
+                    <option value="option1">Option 1</option>
+                    <option value="option2">Option 2</option>
+                    <option value="option3">Option 3</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col mb-3">
+                <div class="col">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="sotuvchidaJamiKorinsin">
+                    <label class="form-check-label" for="sotuvchidaJamiKorinsin">Sotuvchida jami ko'rinsin</label>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="xaridorOynasi">
+                    <label class="form-check-label" for="xaridorOynasi">Xaridor oynasi</label>
+                  </div>
+                </div>
+              </div>
+              <div class="col mb-3">
+                <div class="col">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="savdodanSongBlokirovka">
+                    <label class="form-check-label" for="savdodanSongBlokirovka">Savdodan so'ng blokirovka</label>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="savdodaQoldiqniTekshirmasin">
+                    <label class="form-check-label" for="savdodaQoldiqniTekshirmasin">Savdoda qoldiqni tekshirmasin</label>
+                  </div>
+                </div>
+              </div>
+              <div class="col mb-3">
+                <div class="col">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="qoldiqSummasi">
+                    <label class="form-check-label" for="qoldiqSummasi">Qoldiq summasi soni bo'yicha</label>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Yopish</button>
+              <button type="button" class="btn btn-primary">Saqlash</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      
 
 
 
