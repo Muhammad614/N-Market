@@ -29,7 +29,7 @@
 }
 .input-group{
     height: 30px;
-    width: 190px !important;
+    width: 250px !important;
     margin: 0px 10px;
 }
 
@@ -48,6 +48,4 @@
     }
 }
 
-.product_list_search.noned {
-    display: none;
-}
+
