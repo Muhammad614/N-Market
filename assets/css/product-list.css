@@ -1,3 +1,35 @@
+
+.product_wrapper::-webkit-scrollbar {
+    width: 0px !important;
+    height: 0 !important;
+  }
+
+.product_wrapper {
+    display: flex;
+    overflow-x: scroll;
+}
+.product_list tr td h6,p{
+    float: right;
+}
+
+.container-fluid {
+    border-radius: 10px;
+}
+tr th,td{
+    white-space: nowrap;
+}
+
+.modal-body label{
+    white-space: nowrap;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.modal-second-scroll{
+    overflow-y: scroll;
+    height: 65%;
+}
+
 @media (min-width: 1300px) {
     .nav-link {
       display: flex;
