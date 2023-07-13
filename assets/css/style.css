@@ -1,31 +1,119 @@
-/* width */
-.product_wrapper::-webkit-scrollbar {
-    width: 0px !important;
-    height: 0 !important;
-  }
-
-.product_wrapper {
-    display: flex;
-    overflow-x: scroll;
+nav {
+    margin-left: 1rem;
 }
-.product_list tr td h6,p{
-    float: right;
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
+}
+
+.nav-link {
+    color: #000 !important;
+}
+
+.nav-link.active {
+    color: #004dd1 !important;
+}
+
+#card:hover {
+    background: #b9eeffa6 !important;
+    cursor: pointer;
+}
+
+.modal.ms .modal-image {
+    width: 100%;
+    background-image: url('../images/modal-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.modal.ms .email p {
+    font-size: 12px;
+    margin-bottom: 0 !important;
+}
+
+button.help-wrapper {
+    background: none;
+    border: none;
+    outline: none;
 }
 
 .container-fluid {
-    border-radius: 10px;
-}
-tr th,td{
-    white-space: nowrap;
+    padding: 0 !important;
 }
 
-.modal-body label{
-    white-space: nowrap;
-    font-size: 15px;
-    margin-top: 5px;
+@media only screen and (max-width: 991px) {
+    .dropdown-wrapper {
+        display: flex;
+        justify-content: space-between !important;
+        align-items: center;
+    }
+
+    .nav-tabs {
+        margin-top: 15px !important;
+    }
 }
 
-.modal-second-scroll{
-    overflow-y: scroll;
-    height: 65%;
+@media only screen and (max-width: 600px) {
+    .help {
+        justify-content: center;
+    }
+
+    .help div {
+        border: none !important;
+    }
+
+    .help-wrapper {
+        width: auto !important;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 0 !important;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .content-wrapper {
+        justify-content: center !important;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .nav-link-wrapper {
+        justify-content: center !important;
+    }
+
+    .nav-link {
+        padding: 0 10px !important;
+        font-size: 16px;
+    }
+
+    .content p {
+        margin-bottom: 0 !important;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .content {
+        width: 100% !important;
+        margin: auto !important;
+    }
+
+    .nav-link-wrapper {
+        margin: auto;
+    }
+
+    nav {
+        margin-left: 0px !important;
+    }
+
+    .nav-link {
+        font-size: 14px;
+    }
+
 }

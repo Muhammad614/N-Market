@@ -1,6 +1,3 @@
-
-
-
 .table-responsive::-webkit-scrollbar{
   width: 0px!important;
   height: 0px;
@@ -9,20 +6,7 @@
 tr th{
 white-space: nowrap;
 }
-.form div{
-display: flex;
 
-justify-content: space-between;
-align-items: center;
-}
-
-.in{
-height: 30px;
-width: 270px;
-}
-.bt{
-width: 70px;
-}
 .nav-link span {
   display: block;
 }
