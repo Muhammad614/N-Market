@@ -66,6 +66,9 @@ tr th,td{
 }
 
 @media screen and (min-width:280px) and (max-width:820px){
+    .nav-item {
+        margin: 0px 5px;
+    }
     #semibold{
         display: inline-block;
         font-size: 20px;
@@ -75,16 +78,10 @@ tr th,td{
     }
     .navbar-nav{
         width: 100%;
-        padding: 0px 10px;
-        margin: 10px 0px !important;
+        margin: 5px 0px !important;
+        pad: 0px 10px;
     }
     .input-group{
         width: 250px !important;
     }
-}
-@media screen and (min-width:280px){
- .input-group{
-    margin-top: 10px;
-    width: 95% !important;
- }   
 }

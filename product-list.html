@@ -18,66 +18,69 @@
       <!-- Navbar START (main options)-->
       
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
+        <div class="container-fluid d-flex">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-        </button>
+          </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav text-lg-center">
-                <ul class="navbar-nav text-lg-center border border-dark rounded mx-2">
-                <li class="nav-item mt-2" data-bs-toggle="tooltip" data-bs-placement="right" title="Tovar qo'shish">
-                    <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#modal">
-                      <img src="./assets/icons/message-add.svg" alt="Tovar qo'shish" width="25">
-                      <span class="text-dark fw-semibold" id="semibold">Tovarni qo'shish</span>
+                <ul class="navbar-nav text-lg-center border border-dark rounded mx-3">
+                <div class="d-flex justify-content-between">
+                  <li class="nav-item mt-2" data-bs-toggle="tooltip" data-bs-placement="right" title="Tovar qo'shish">
+                    <a class="nav-link d-flex flex-column align-items-center" href="#" data-bs-toggle="modal" data-bs-target="#modal">
+                      <img src="./assets/icons/message-add.svg" alt="Tovar qo'shish" width="30">
+                      <span class="text-dark fw-semibold text-center" id="semibold">Qo'shish</span>
                     </a>
                   </li>
               <li class="nav-item mt-2" data-bs-toggle="tooltip" data-bs-placement="right" title="Tovar o'chirish">
-                <a class="nav-link" href="#">
-                  <img src="./assets/icons/trash.svg" width="25" alt="">
-                  <span class="text-dark fw-semibold" id="semibold">Tovarni  o'chirish</span>
+                <a class="nav-link d-flex flex-column align-items-center" href="#">
+                  <img src="./assets/icons/trash.svg" width="30" alt="">
+                  <span class="text-dark fw-semibold" id="semibold">O'chirish</span>
                 </a>
-              </li>
+              </li> 
               <li class="nav-item mt-2" data-bs-toggle="tooltip" data-bs-placement="right" title="Tovar tahrirlash">
-                <a class="nav-link" href="#">
-                  <img src="./assets/icons/edit.svg" width="25" alt="">
-                  <span class="text-dark fw-semibold" id="semibold">Tovarni  tahrirlash</span>
+                <a class="nav-link d-flex flex-column align-items-center" href="#">
+                  <img src="./assets/icons/edit.svg" width="30" alt="">
+                  <span class="text-dark fw-semibold" id="semibold">Tahrirlash</span>
                 </a>
               </li>
+              <li class="nav-item mt-2 " data-bs-toggle="tooltip" data-bs-placement="right" title="Chop etish">
+                <a class="nav-link d-flex flex-column align-items-center" href="#">
+                  <img src="./assets/icons/printer.svg" width="30" alt="">
+                  <span class="text-dark fw-semibold" id="semibold">Printer</span>
+                </a>
+              </li>
+            </div>
+
                 </ul>
-                <ul class="navbar-nav text-lg-center border border-dark rounded mx-2">
-              <li class="nav-item mt-2" data-bs-toggle="tooltip" data-bs-placement="right" title="Chop etish">
-                <a class="nav-link" href="#">
-                  <img src="./assets/icons/printer.svg" width="25" alt="">
-                  <span class="text-dark fw-semibold" id="semibold">Chop etish</span>
-                </a>
-              </li>
-              <li class="nav-item mt-2" data-bs-toggle="tooltip" data-bs-placement="right" title="Filtirlash">
-                <a class="nav-link" href="#">
-                  <img src="./assets/icons/filter.svg" width="25" alt="">
-                  <span class="text-dark fw-semibold" id="semibold">Tovarni filtirlash</span>
-                </a>
-              </li>
-              <li class="nav-item mt-2" data-bs-toggle="tooltip" data-bs-placement="right" title="Ishlab chiqaruvchilar ro'yhati">
-                <a class="nav-link" href="#">
-                  <img src="./assets/icons/document-text.svg" width="25" alt="">
-                  <span class="text-dark fw-semibold" id="semibold">Ishlab chiqaruvchilar ro'yhati</span>
-                </a>
-              </li>
+                <ul class="navbar-nav text-lg-center border border-dark rounded px-2">
+                  <div class="d-flex justify-content-center">
+                      <a class="nav-link d-flex flex-column align-items-center" href="#">
+                        <img src="./assets/icons/layer.svg" width="30" alt="">
+                        <span class="text-dark fw-semibold text-center" id="semibold">Mahsulot turlari</span>
+                      </a>
+                      <a class="nav-link d-flex flex-column align-items-center" href="#">
+                        <img src="./assets/icons/document-text.svg" width="30" alt="">
+                        <span class="text-dark fw-semibold text-center" id="semibold">Chiqaruvchilar ro'yhati</span>
+                      </a>
+                  </div>
+                  
             </ul>
               <ul class="navbar-nav text-lg-center border border-dark rounded mx-3">
-              <li class="nav-item mt-2" data-bs-toggle="tooltip" data-bs-placement="right" title="Mahsulot turlari">
-                <a class="nav-link" href="#">
-                  <img src="./assets/icons/layer.svg" width="25" alt="">
-                  <span class="text-dark fw-semibold" id="semibold">Mahsulot turlari</span>
-                  <div class="hav d-none">Mahsulot turlari</div>
-                </a>
-              </li>
-              <li class="nav-item mt-2" data-bs-toggle="tooltip" data-bs-placement="right" title="Tovarni shtrix kodga o'girish">
-                <a class="nav-link" href="#">
-                  <img src="./assets/icons/ruler&pen.svg" width="25" alt="">
-                  <span class="text-dark fw-semibold" id="semibold">O'lchov birligi</span>
-                </a>
-              </li>
+                <div class="d-flex justify-content-around">
+                  <li class="nav-item mt-2 " data-bs-toggle="tooltip" data-bs-placement="right" title="Filtirlash">
+                    <a class="nav-link" href="#">
+                      <img src="./assets/icons/filter.svg" width="30" alt="">
+                      <span class="text-dark fw-semibold text-center" id="semibold">Filtirlash</span>
+                    </a>
+                  </li>
+                <li class="nav-item mt-2" data-bs-toggle="tooltip" data-bs-placement="right" title="Tovarni shtrix kodga o'girish">
+                  <a class="nav-link" href="#">
+                    <img src="./assets/icons/ruler&pen.svg" width="25" alt="">
+                    <span class="text-dark fw-semibold text-center" id="semibold">O'lchov birligi</span>
+                  </a>
+                </li>
+                </div>
               </ul>
 
       <!-- END navbar (main options) -->
@@ -123,12 +126,13 @@
           <!-- End Barcode options -->
 
           <!-- Search -->
-          <div class="group d-flex product_list_search">
+          <div class="group d-flex">
             <div class="input-group d-flex flex-wrap">
                 <input type="text" class="form-control flex-grow-1" placeholder="Qidiruv...">
                 <button class="btn btn-primary" type="button">Qidirish</button>
               </div>
            <!-- End Search -->
+        </div>
         </div>
       </nav>
 
