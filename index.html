@@ -2,25 +2,43 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>Home Page</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Home Page</title>
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <div class="container-fluid">
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
+          aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse nav-wrapper" id="navbarTogglerDemo03">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <div class=" nav nav-tabs d-flex justify-content-between" id="nav-tab" role="tablist">
+              <button class="nav-link active fw-bold" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home"
+                type="button" role="tab" aria-controls="nav-home" aria-selected="true">Boshqaruv</button>
+              <button class="nav-link fw-bold" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile"
+                type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Umumiy to'girlashlar</button>
+              <button class="nav-link fw-bold" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact"
+                type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Yordam</button>
+            </div>
+          </ul>
+          <div class="d-flex gap-2 dropdown-wrapper">
+            <div class="btn-group">
+              <button class="btn btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <img src="./assets/icons/global.svg" width="25" alt=""><span class="fw-bold mx-2">UZ</span>
               </button>
+<<<<<<< HEAD
               <div class="collapse navbar-collapse nav-wrapper" id="navbarTogglerDemo03">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <div class=" nav nav-tabs d-flex justify-content-between" id="nav-tab" role="tablist">
@@ -78,453 +96,497 @@
                         <p class="mt-2 fs-6 w-auto mb-0"><a href="delivery.html" class="text-decoration-none">Mol yetkazib beruvchi</a></p>
                     </div>
                 </div>
+=======
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">УЗ/крилл</a></li>
+                <li><a class="dropdown-item" href="#">RU</a></li>
+                <li><a class="dropdown-item" href="#">UZ</a></li>
+              </ul>
+>>>>>>> 0f0c94ea789a135698b12c18993391af589764ca
             </div>
 
-            <div class="tab-pane fade border-bottom border-3" id="nav-profile" role="tabpanel"
-                aria-labelledby="nav-profile-tab">
-                <div class="grid-container">
-                    <div class="p-2 border-end text-center" id="card">
-                        <img src="./assets/icons/NotePencil.svg" alt="">
-                        <p class="mt-2 fs-6 w-auto mb-0">To'girlashlar</p>
-                    </div>
-
-                    <div class="p-2 border-end text-center" id="card">
-                        <img src="./assets/icons/Calculator.svg" alt="">
-                        <p class="mt-2 fs-6 w-auto mb-0">Tarozi</p>
-                    </div>
-
-                    <div class="p-2 border-end text-center" id="card">
-                        <img src="./assets/icons/star.svg" alt="">
-
-                        <p class="mt-2 fs-6 w-auto mb-0">Ishlatuvchilar</p>
-                    </div>
-
-                    <div class="p-2 border-end text-center" id="card">
-                        <img src="./assets/icons/GitFork.svg" alt="">
-
-                        <p class="mt-2 fs-6 w-auto mb-0">Shtrix generator</p>
-                    </div>
-
-                    <div class="p-2 border-end text-center" id="card">
-                      <a href="/karteka.html" class="text-decoration-none">
-                        <img src="./assets/icons/Percent.svg" alt="">
-                        <p class="mt-2 fs-6 w-auto mb-0">Chegirmalar</p>
-                        <p class="mt-2 fs-6 w-auto mb-0" id="myModal1">Чегирмалар</p>
-                      </a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="tab-pane fade border-bottom border-3" id="nav-contact" role="tabpanel"
-            aria-labelledby="nav-contact-tab">
-            <div class="d-flex help">
-                <button type="button" class="help-wrapper py-2 border-end text-center" id="card" data-bs-toggle="modal" data-bs-target="#helpModal">
-                    <div class="d-flex justify-content-center">
-                        <img src="./assets/icons/Info.svg" alt="" class="mx-1" width="40">
-                        <img src="./assets/icons/Question.svg" alt="" class="mx-1" width="40">
-                        <img src="./assets/icons/GlobeHemisphereWest.svg" alt="" class="mx-1" width="40">
-                    </div>
-                    <a href="#helpModal" data-bs-target="#helpModal" class="mt-2 fs-6 w-auto text-center mb-0 text-decoration-none">Yordam</a>
-                </button>
-            </div>
-        </div>
-        </div>
-
-        <!-- Help modal -->
-        <div class="modal fade ms" id="helpModal" tabindex="-1" aria-labelledby="helpModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="helpModalLabel">Naqsh group жамоаси</h5>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body d-flex">
-                    <div class="modal-image p-3">
-                        <p class="text-light">V5.0.00</p>
-    
-                        <div class="d-flex gap-3 mt-5">
-                            <p class="text-light">Ro'yhatga olingan... E'tibor</p>
-                            <p class="text-danger">admin</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="modal-footer d-flex justify-content-between align-items-center">
-                    <div class="email">
-                        <p class="text-primary">ilonmust@gmail.com (+998 98 756 75 85)</p>
-                    </div>
-    
-                    <div>
-                        <button type="button" class="btn btn-secondary"><img src="assets/icons/edit-light.svg" alt=""> Ro'yxatga olish</button>
-                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">OK</button>
-                    </div>
-                </div>
-              </div>
+            <div class="naqshgroup d-flex align-items-center p-2 bg-warning">
+              <p class="m-auto text-light">NaqshGroup 2021</p>
             </div>
           </div>
-          <!-- Help modal END -->
-    </header>
-
-
-    <!-- Modal -->
-    <div class="modal fade" id="settingsModal" tabindex="-1" aria-labelledby="settingsModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="settingsModalLabel">To'g'irlashlar</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                        <div class="mb-3">
-                            <a href="#settingsModal" class="btn btn-outline-primary mb-3 mx-2" data-bs-toggle="modal">Rekvizitlar</a>
-                            <a href="#additionalModal" class="btn btn-outline-primary mb-3 mx-2" data-bs-toggle="modal">Qo'shimchalar</a>
-                            <a href="#savdoModal" class="btn btn-outline-primary mb-3 mx-2" data-bs-toggle="modal">Tezkor tugmalar</a>
-
-                        </div>
-                    <div class="mb-3">
-                        <div class="row">
-                            <label for="companyName" class="col-sm-4 col-form-label">Korxona nomi</label>
-                            <div class="col-sm-8">
-                                <input type="text" class="form-control" id="companyName">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="mb-3">
-                        <div class="row">
-                            <label for="accountNumber" class="col-sm-4 col-form-label">Hisob raqami</label>
-                            <div class="col-sm-8">
-                                <input type="text" class="form-control" id="accountNumber">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row mb-3">
-                        <label for="mfo" class="col-sm-4 col-form-label">MFO</label>
-                        <div class="col-sm-8">
-                          <input type="text" class="form-control" id="mfo">
-                        </div>
-                      </div>
-                      <div class="row mb-3">
-                        <label for="inn" class="col-sm-4 col-form-label">INN</label>
-                        <div class="col-sm-8">
-                          <input type="text" class="form-control" id="inn">
-                        </div>
-                      </div>
-                      <div class="row mb-3">
-                        <label for="okonx" class="col-sm-4 col-form-label">OKONX</label>
-                        <div class="col-sm-8">
-                          <input type="text" class="form-control" id="okonx">
-                        </div>
-                      </div>
-                      <div class="row mb-3">
-                        <label for="director" class="col-sm-4 col-form-label">Raxbar</label>
-                        <div class="col-sm-8">
-                          <input type="text" class="form-control" id="director">
-                        </div>
-                      </div>
-                      <div class="row mb-3">
-                        <label for="chiefAccountant" class="col-sm-4 col-form-label">Bosh hisobchi</label>
-                        <div class="col-sm-8">
-                          <input type="text" class="form-control" id="chiefAccountant">
-                        </div>
-                      </div>
-                      <div class="row mb-3">
-                        <label for="phone" class="col-sm-4 col-form-label">Telefon</label>
-                        <div class="col-sm-8">
-                          <input type="text" class="form-control" id="phone">
-                        </div>
-                      </div>
-                      <div class="row mb-3">
-                        <label for="address" class="col-sm-4 col-form-label">Manzil</label>
-                        <div class="col-sm-8">
-                          <input type="text" class="form-control" id="address">
-                        </div>
-                      </div>
-                      
-                    <div class="mb-3">
-                        <label for="languageSelect" class="form-label">Interfeys tili</label>
-                        <select class="form-select" id="languageSelect">
-                            <option value="uzbek">O'zbekcha</option>
-                            <option value="english">English</option>
-                            <option value="russian">Русский</option>
-                        </select>
-                    </div>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Yopish</button>
-                    <button type="button" class="btn btn-primary">Saqlash</button>
-                </div>
-            </div>
         </div>
+      </div>
+    </nav>
+
+
+    <div class="tab-content" id="nav-tabContent">
+      <div class="tab-pane fade show active border-bottom border-3" id="nav-home" role="tabpanel"
+        aria-labelledby="nav-home-tab">
+        <div class="content-wrapper d-flex">
+          <div class="p-2 border-end content text-center" id="card">
+            <img src="./assets/icons/star.svg" alt="" class="">
+            <p class="mt-2 fs-6 w-auto mb-0">Tovarlar harakati</p>
+          </div>
+
+          <div class="p-2 border-end content text-center" id="card">
+            <a href="./product-list.html" class="text-decoration-none">
+              <img src="./assets/icons/List.svg" alt="" class="">
+              <p class="mt-2 fs-6 w-auto mb-0">Tovarlar ro'yxati</p>
+            </a>
+          </div>
+
+          <div class="p-2 border-end content text-center" id="card">
+            <img src="./assets/icons/Truck.svg" alt="" class="">
+
+            <p class="mt-2 fs-6 w-auto mb-0">Mol yetkazib beruvchi</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="tab-pane fade border-bottom border-3" id="nav-profile" role="tabpanel"
+        aria-labelledby="nav-profile-tab">
+        <div class="grid-container">
+          <div class="p-2 border-end text-center" id="card">
+            <img src="./assets/icons/NotePencil.svg" alt="">
+            <p class="mt-2 fs-6 w-auto mb-0">To'girlashlar</p>
+          </div>
+
+          <div class="p-2 border-end text-center" id="card">
+            <img src="./assets/icons/Calculator.svg" alt="">
+            <p class="mt-2 fs-6 w-auto mb-0">Tarozi</p>
+          </div>
+
+          <div class="p-2 border-end text-center" id="card">
+            <img src="./assets/icons/star.svg" alt="">
+
+            <p class="mt-2 fs-6 w-auto mb-0">Ishlatuvchilar</p>
+          </div>
+
+          <div class="p-2 border-end text-center" id="card">
+            <img src="./assets/icons/GitFork.svg" alt="">
+
+            <p class="mt-2 fs-6 w-auto mb-0">Shtrix generator</p>
+          </div>
+
+          <div class="p-2 border-end text-center" id="card">
+            <a href="/karteka.html" class="text-decoration-none">
+              <img src="./assets/icons/Percent.svg" alt="">
+              <p class="mt-2 fs-6 w-auto mb-0">Chegirmalar</p>
+              <p class="mt-2 fs-6 w-auto mb-0" id="myModal1">Чегирмалар</p>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="tab-pane fade border-bottom border-3" id="nav-contact" role="tabpanel"
+        aria-labelledby="nav-contact-tab">
+        <div class="d-flex help">
+          <button type="button" class="help-wrapper py-2 border-end text-center" id="card" data-bs-toggle="modal"
+            data-bs-target="#helpModal">
+            <div class="d-flex justify-content-center">
+              <img src="./assets/icons/Info.svg" alt="" class="mx-1" width="40">
+              <img src="./assets/icons/Question.svg" alt="" class="mx-1" width="40">
+              <img src="./assets/icons/GlobeHemisphereWest.svg" alt="" class="mx-1" width="40">
+            </div>
+            <a href="#helpModal" data-bs-target="#helpModal"
+              class="mt-2 fs-6 w-auto text-center mb-0 text-decoration-none">Yordam</a>
+          </button>
+        </div>
+      </div>
     </div>
 
-    <!-- "Tezkor tugmalar" modal -->
-    <div class="modal fade" id="savdoModal" tabindex="-1" aria-labelledby="savdoModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
+    <!-- Help modal -->
+    <div class="modal fade ms" id="helpModal" tabindex="-1" aria-labelledby="helpModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
-            <div class="modal-header">
-            <h5 class="modal-title" id="savdoModalLabel">Savdo</h5>
+          <div class="modal-header">
+            <h5 class="modal-title" id="helpModalLabel">Naqsh group жамоаси</h5>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-            <div class="row mb-3">
-                <div class="col">
-                <label for="soniniQoshish" class="form-label">Sonini qo'shish</label>
-                <input type="number" class="form-control" id="soniniQoshish">
-                </div>
-                <div class="col">
-                <label for="soniniAyirish" class="form-label">Sonini ayirish</label>
-                <input type="number" class="form-control" id="soniniAyirish">
-                </div>
-            </div>
-            <div class="row mb-3">
-                <div class="col">
-                <label for="donaniQoshish" class="form-label">Donani qo'shish</label>
-                <input type="text" class="form-control" id="donaniQoshish">
-                </div>
-                <div class="col">
-                <label for="donaniAyirish" class="form-label">Donani ayirish</label>
-                <input type="text" class="form-control" id="donaniAyirish">
-                </div>
-            </div>
-            </div>
-            <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Yopish</button>
-            <button type="button" class="btn btn-primary">Saqlash</button>
-            </div>
-        </div>
-        </div>
-    </div>
-  
-  
-    
+          </div>
+          <div class="modal-body d-flex">
+            <div class="modal-image p-3">
+              <p class="text-light">V5.0.00</p>
 
-
-    <!-- "Qo'shimchalar" modal -->
-    <div class="modal fade" id="additionalModal" tabindex="-1" aria-labelledby="additionalModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="additionalModalLabel">Qo'shimchalar</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              <div class="d-flex gap-3 mt-5">
+                <p class="text-light">Ro'yhatga olingan... E'tibor</p>
+                <p class="text-danger">admin</p>
+              </div>
             </div>
-            <div class="modal-body">
-                <div class="row mb-3">
-                  <div class="col">
-                    <label for="chiqimHujjati" class="form-label">Chiqim hujjati</label>
-                    <input type="text" class="form-control" id="chiqimHujjati">
-                  </div>
-                  <div class="col">
-                    <label for="chiqimHujjatNollari" class="form-label">Chiqim hujjat nollari</label>
-                    <input type="text" class="form-control" id="chiqimHujjatNollari">
-                  </div>
-                </div>
-                <div class="row mb-3">
-                  <div class="col">
-                    <label for="kirimHujjati" class="form-label">Kirim hujjati</label>
-                    <input type="text" class="form-control" id="kirimHujjati">
-                  </div>
-                  <div class="col">
-                    <label for="ustama" class="form-label">Ustama</label>
-                    <input type="text" class="form-control" id="ustama">
-                  </div>
-                </div>
-                <div class="row mb-3">
-                  <div class="col">
-                    <label for="yaxlitlash" class="form-label">Yaxlitlash</label>
-                    <input type="text" class="form-control" id="yaxlitlash">
-                  </div>
-                  <div class="col">
-                    <label for="shtrixKodSkanerTuri" class="form-label">Shtrix kod skaner turi</label>
-                    <select class="form-select" id="shtrixKodSkanerTuri">
-                      <option value="option1">Option 1</option>
-                      <option value="option2">Option 2</option>
-                      <option value="option3">Option 3</option>
-                    </select>
-                  </div>
-                </div>
-                <div class="row mb-3">
-                  <div class="col">
-                    <label for="shtrixKodSkanerPorti" class="form-label">Shtrix kod skaner porti</label>
-                    <select class="form-select" id="shtrixKodSkanerPorti">
-                      <option value="option1">Option 1</option>
-                      <option value="option2">Option 2</option>
-                      <option value="option3">Option 3</option>
-                    </select>
-                  </div>
-                </div>
-                <div class="row mb-3">
-                  <div class="col">
-                    <div class="form-check">
-                      <input class="form-check-input" type="checkbox" id="sotuvchidaJamiKorinsin">
-                      <label class="form-check-label" for="sotuvchidaJamiKorinsin">Sotuvchida jami ko'rinsin</label>
-                    </div>
-                  </div>
-                  <div class="col">
-                    <div class="form-check">
-                      <input class="form-check-input" type="checkbox" id="xaridorOynasi">
-                      <label class="form-check-label" for="xaridorOynasi">Xaridor oynasi</label>
-                    </div>
-                  </div>
-                </div>
-                <div class="row mb-3">
-                  <div class="col">
-                    <div class="form-check">
-                      <input class="form-check-input" type="checkbox" id="savdodanSongBlokirovka">
-                      <label class="form-check-label" for="savdodanSongBlokirovka">Savdodan so'ng blokirovka</label>
-                    </div>
-                  </div>
-                  <div class="col">
-                    <div class="form-check">
-                      <input class="form-check-input" type="checkbox" id="savdodaQoldiqniTekshirmasin">
-                      <label class="form-check-label" for="savdodaQoldiqniTekshirmasin">Savdoda qoldiqni tekshirmasin</label>
-                    </div>
-                  </div>
-                </div>
-                <div class="row mb-3">
-                  <div class="col">
-                    <div class="form-check">
-                      <input class="form-check-input" type="checkbox" id="qoldiqSummasi">
-                      <label class="form-check-label" for="qoldiqSummasi">Qoldiq summasi soni bo'yicha</label>
-                    </div>
-                  </div>
-                  <div class="col">
-                    <div class="form-check">
-                      <input class="form-check-input" type="checkbox" id="end_num">
-                      <label class="form-check-label" for="end_num">?Oldi? soni tugaganlar yangi oyga o'tmasin</label>
-                    </div>
-                  </div>
-                </div>
-                <div class="row mb-3">
-                  <div class="col">
-                    <div class="form-check">
-                      <input class="form-check-input" type="checkbox" id="scales">
-                      <label class="form-check-label" for="scales">Tarozi ishlatiladi</label>
-                    </div>
-                  </div>
-                  <div class="col">
-                    <div class="form-check">
-                      <input class="form-check-input" type="checkbox" id="chek">
-                      <label class="form-check-label" for="chek">Chek avtomat chiqsin</label>
-                    </div>
-                  </div>
-                </div>
-                <div class="row mb-3">
-                  <div class="col">
-                    <div class="form-check">
-                      <input class="form-check-input" type="checkbox" id="saler_change">
-                      <label class="form-check-label" for="saler_change">Sotuvchilarni o'zgartiradi</label>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Yopish</button>
-                <button type="button" class="btn btn-primary">Saqlash</button>
-              </div>
-              
+          </div>
+          <div class="modal-footer d-flex justify-content-between align-items-center">
+            <div class="email">
+              <p class="text-primary">ilonmust@gmail.com (+998 98 756 75 85)</p>
+            </div>
+
+            <div>
+              <button type="button" class="btn btn-secondary"><img src="assets/icons/edit-light.svg" alt=""> Ro'yxatga
+                olish</button>
+              <button type="button" class="btn btn-primary" data-bs-dismiss="modal">OK</button>
+            </div>
           </div>
         </div>
+      </div>
+    </div>
+    <!-- Help modal END -->
+  </header>
 
 
-  
+  <!-- Modal -->
+  <div class="modal fade" id="settingsModal" tabindex="-1" aria-labelledby="settingsModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="settingsModalLabel">To'g'irlashlar</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="mb-3">
+            <a href="#settingsModal" class="btn btn-outline-primary mb-3 mx-2" data-bs-toggle="modal">Rekvizitlar</a>
+            <a href="#additionalModal" class="btn btn-outline-primary mb-3 mx-2"
+              data-bs-toggle="modal">Qo'shimchalar</a>
+            <a href="#savdoModal" class="btn btn-outline-primary mb-3 mx-2" data-bs-toggle="modal">Tezkor tugmalar</a>
+
+          </div>
+          <div class="mb-3">
+            <div class="row">
+              <label for="companyName" class="col-sm-4 col-form-label">Korxona nomi</label>
+              <div class="col-sm-8">
+                <input type="text" class="form-control" id="companyName">
+              </div>
+            </div>
+          </div>
+          <div class="mb-3">
+            <div class="row">
+              <label for="accountNumber" class="col-sm-4 col-form-label">Hisob raqami</label>
+              <div class="col-sm-8">
+                <input type="text" class="form-control" id="accountNumber">
+              </div>
+            </div>
+          </div>
+          <div class="row mb-3">
+            <label for="mfo" class="col-sm-4 col-form-label">MFO</label>
+            <div class="col-sm-8">
+              <input type="text" class="form-control" id="mfo">
+            </div>
+          </div>
+          <div class="row mb-3">
+            <label for="inn" class="col-sm-4 col-form-label">INN</label>
+            <div class="col-sm-8">
+              <input type="text" class="form-control" id="inn">
+            </div>
+          </div>
+          <div class="row mb-3">
+            <label for="okonx" class="col-sm-4 col-form-label">OKONX</label>
+            <div class="col-sm-8">
+              <input type="text" class="form-control" id="okonx">
+            </div>
+          </div>
+          <div class="row mb-3">
+            <label for="director" class="col-sm-4 col-form-label">Raxbar</label>
+            <div class="col-sm-8">
+              <input type="text" class="form-control" id="director">
+            </div>
+          </div>
+          <div class="row mb-3">
+            <label for="chiefAccountant" class="col-sm-4 col-form-label">Bosh hisobchi</label>
+            <div class="col-sm-8">
+              <input type="text" class="form-control" id="chiefAccountant">
+            </div>
+          </div>
+          <div class="row mb-3">
+            <label for="phone" class="col-sm-4 col-form-label">Telefon</label>
+            <div class="col-sm-8">
+              <input type="text" class="form-control" id="phone">
+            </div>
+          </div>
+          <div class="row mb-3">
+            <label for="address" class="col-sm-4 col-form-label">Manzil</label>
+            <div class="col-sm-8">
+              <input type="text" class="form-control" id="address">
+            </div>
+          </div>
+
+          <div class="mb-3">
+            <label for="languageSelect" class="form-label">Interfeys tili</label>
+            <select class="form-select" id="languageSelect">
+              <option value="uzbek">O'zbekcha</option>
+              <option value="english">English</option>
+              <option value="russian">Русский</option>
+            </select>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Yopish</button>
+          <button type="button" class="btn btn-primary">Saqlash</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- "Tezkor tugmalar" modal -->
+  <div class="modal fade" id="savdoModal" tabindex="-1" aria-labelledby="savdoModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="savdoModalLabel">Savdo</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row mb-3">
+            <div class="col">
+              <label for="soniniQoshish" class="form-label">Sonini qo'shish</label>
+              <input type="number" class="form-control" id="soniniQoshish">
+            </div>
+            <div class="col">
+              <label for="soniniAyirish" class="form-label">Sonini ayirish</label>
+              <input type="number" class="form-control" id="soniniAyirish">
+            </div>
+          </div>
+          <div class="row mb-3">
+            <div class="col">
+              <label for="donaniQoshish" class="form-label">Donani qo'shish</label>
+              <input type="text" class="form-control" id="donaniQoshish">
+            </div>
+            <div class="col">
+              <label for="donaniAyirish" class="form-label">Donani ayirish</label>
+              <input type="text" class="form-control" id="donaniAyirish">
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Yopish</button>
+          <button type="button" class="btn btn-primary">Saqlash</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <!-- "Qo'shimchalar" modal -->
+  <div class="modal fade" id="additionalModal" tabindex="-1" aria-labelledby="additionalModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="additionalModalLabel">Qo'shimchalar</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row mb-3">
+            <div class="col">
+              <label for="chiqimHujjati" class="form-label">Chiqim hujjati</label>
+              <input type="text" class="form-control" id="chiqimHujjati">
+            </div>
+            <div class="col">
+              <label for="chiqimHujjatNollari" class="form-label">Chiqim hujjat nollari</label>
+              <input type="text" class="form-control" id="chiqimHujjatNollari">
+            </div>
+          </div>
+          <div class="row mb-3">
+            <div class="col">
+              <label for="kirimHujjati" class="form-label">Kirim hujjati</label>
+              <input type="text" class="form-control" id="kirimHujjati">
+            </div>
+            <div class="col">
+              <label for="ustama" class="form-label">Ustama</label>
+              <input type="text" class="form-control" id="ustama">
+            </div>
+          </div>
+          <div class="row mb-3">
+            <div class="col">
+              <label for="yaxlitlash" class="form-label">Yaxlitlash</label>
+              <input type="text" class="form-control" id="yaxlitlash">
+            </div>
+            <div class="col">
+              <label for="shtrixKodSkanerTuri" class="form-label">Shtrix kod skaner turi</label>
+              <select class="form-select" id="shtrixKodSkanerTuri">
+                <option value="option1">Option 1</option>
+                <option value="option2">Option 2</option>
+                <option value="option3">Option 3</option>
+              </select>
+            </div>
+          </div>
+          <div class="row mb-3">
+            <div class="col">
+              <label for="shtrixKodSkanerPorti" class="form-label">Shtrix kod skaner porti</label>
+              <select class="form-select" id="shtrixKodSkanerPorti">
+                <option value="option1">Option 1</option>
+                <option value="option2">Option 2</option>
+                <option value="option3">Option 3</option>
+              </select>
+            </div>
+          </div>
+          <div class="row mb-3">
+            <div class="col">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="sotuvchidaJamiKorinsin">
+                <label class="form-check-label" for="sotuvchidaJamiKorinsin">Sotuvchida jami ko'rinsin</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="xaridorOynasi">
+                <label class="form-check-label" for="xaridorOynasi">Xaridor oynasi</label>
+              </div>
+            </div>
+          </div>
+          <div class="row mb-3">
+            <div class="col">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="savdodanSongBlokirovka">
+                <label class="form-check-label" for="savdodanSongBlokirovka">Savdodan so'ng blokirovka</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="savdodaQoldiqniTekshirmasin">
+                <label class="form-check-label" for="savdodaQoldiqniTekshirmasin">Savdoda qoldiqni tekshirmasin</label>
+              </div>
+            </div>
+          </div>
+          <div class="row mb-3">
+            <div class="col">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="qoldiqSummasi">
+                <label class="form-check-label" for="qoldiqSummasi">Qoldiq summasi soni bo'yicha</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="end_num">
+                <label class="form-check-label" for="end_num">?Oldi? soni tugaganlar yangi oyga o'tmasin</label>
+              </div>
+            </div>
+          </div>
+          <div class="row mb-3">
+            <div class="col">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="scales">
+                <label class="form-check-label" for="scales">Tarozi ishlatiladi</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="chek">
+                <label class="form-check-label" for="chek">Chek avtomat chiqsin</label>
+              </div>
+            </div>
+          </div>
+          <div class="row mb-3">
+            <div class="col">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="saler_change">
+                <label class="form-check-label" for="saler_change">Sotuvchilarni o'zgartiradi</label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Yopish</button>
+          <button type="button" class="btn btn-primary">Saqlash</button>
+        </div>
+
+      </div>
+    </div>
+
+
+
     <!-- 'Yordam' Modal -->
 
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
-        </script>
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
 
 
     <style>
-        nav {
-            margin-left: 1rem;
+      nav {
+        margin-left: 1rem;
+      }
+
+      .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
+      }
+
+      .nav-link {
+        color: #000 !important;
+      }
+
+      .nav-link.active {
+        color: #004dd1 !important;
+      }
+
+      #card:hover {
+        background: #b9eeffa6 !important;
+        cursor: pointer;
+      }
+
+      @media only screen and (max-width: 600px) {
+        .naqshgroup {
+          display: none !important;
+        }
+
+
+        .help {
+          justify-content: center;
+        }
+
+        .help div {
+          border: none !important;
+        }
+
+        .help-wrapper {
+          width: auto !important;
         }
 
         .grid-container {
-            display: grid;
-            grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
+          display: grid;
+          grid-template-columns: auto auto auto;
+          gap: 0 !important;
+        }
+      }
+
+      @media only screen and (max-width: 575px) {
+        .content-wrapper {
+          justify-content: center !important;
+        }
+      }
+
+      @media only screen and (max-width: 400px) {
+        .nav-link-wrapper {
+          justify-content: center !important;
         }
 
         .nav-link {
-            color: #000 !important;
+          padding: 0 10px !important;
+          font-size: 16px;
         }
 
-        .nav-link.active {
-            color: #004dd1 !important;
+        .content p {
+          margin-bottom: 0 !important;
         }
 
-        #card:hover {
-            background: #b9eeffa6 !important;
-            cursor: pointer;
+        .grid-container {
+          display: grid;
+          grid-template-columns: auto auto;
         }
 
-        @media only screen and (max-width: 600px) {
-            .naqshgroup {
-                display: none !important;
-            }
-
-
-            .help {
-                justify-content: center;
-            }
-
-            .help div {
-                border: none !important;
-            }
-
-            .help-wrapper {
-                width: auto !important;
-            }
-
-            .grid-container {
-                display: grid;
-                grid-template-columns: auto auto auto;
-                gap: 0 !important;
-            }
+        .content {
+          width: 100% !important;
+          margin: auto !important;
         }
 
-        @media only screen and (max-width: 575px) {
-            .content-wrapper {
-                justify-content: center !important;
-            }
+        .nav-link-wrapper {
+          margin: auto;
         }
 
-        @media only screen and (max-width: 400px) {
-            .nav-link-wrapper {
-                justify-content: center !important;
-            }
-
-            .nav-link {
-                padding: 0 10px !important;
-                font-size: 16px;
-            }
-
-            .content p {
-                margin-bottom: 0 !important;
-            }
-
-            .grid-container {
-                display: grid;
-                grid-template-columns: auto auto;
-            }
-
-            .content {
-                width: 100% !important;
-                margin: auto !important;
-            }
-
-            .nav-link-wrapper {
-                margin: auto;
-            }
-
-            nav {
-                margin-left: 0px !important;
-            }
-
-            .nav-link {
-                font-size: 14px;
-            }
+        nav {
+          margin-left: 0px !important;
         }
+
+        .nav-link {
+          font-size: 14px;
+        }
+      }
     </style>
 
 </body>
