@@ -1,7 +1,12 @@
-nav {
+.index-navbar {
     margin-left: 1rem;
+    padding-bottom: 0 !important;
 }
 
+
+#card {
+    border-top: 1px solid #dee2e6;
+}
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
@@ -42,15 +47,33 @@ button.help-wrapper {
     padding: 0 !important;
 }
 
+footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+}
+
+.nav-content-wrapper {
+    width: 100%;
+}
+
+.month-select-form {
+    width: auto;
+}
+
+.month-select-form, .month-select-form option {
+    cursor: pointer;
+}
+
+.year-select-form {
+    width: 80px;
+}
+
 @media only screen and (max-width: 991px) {
     .dropdown-wrapper {
         display: flex;
         justify-content: space-between !important;
         align-items: center;
-    }
-
-    .nav-tabs {
-        margin-top: 15px !important;
     }
 }
 
@@ -78,6 +101,41 @@ button.help-wrapper {
     .content-wrapper {
         justify-content: center !important;
     }
+
+    .help-wrapper {
+        border: none !important;
+    }
+
+}
+
+@media only screen and (max-width: 475px) {
+    .index-navbar {
+        margin-left: 0 !important;
+    }
+
+    #card {
+        margin: 0 !important;
+    }
+
+    .nav-content-wrapper {
+        flex-direction: column-reverse;
+        align-items: end !important;
+    }
+
+    .nav-tabs {
+        width: 100% !important;
+        display: flex !important;
+        justify-content: space-between !important;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    ul.navbar-nav {
+        width: 100%;
+        margin: 0 !important;
+        padding: 0 10px;
+    }
 }
 
 @media only screen and (max-width: 400px) {
@@ -85,9 +143,17 @@ button.help-wrapper {
         justify-content: center !important;
     }
 
+    .umumiy {
+        display: none;
+    }
+
+    .nav-tabs {
+        gap: 0 !important;
+    }
+
     .nav-link {
         padding: 0 10px !important;
-        font-size: 16px;
+        font-size: 16px !important;
     }
 
     .content p {
@@ -108,12 +174,11 @@ button.help-wrapper {
         margin: auto;
     }
 
-    nav {
+    .index-navbar {
         margin-left: 0px !important;
     }
-
-    .nav-link {
-        font-size: 14px;
+     
+    .nav-tabs {
+        margin-top: 0 !important;
     }
-
 }
